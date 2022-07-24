@@ -17,7 +17,7 @@ How to install and run this program: (on UNIX based OS, Linux or BSDs)
   
   e. pip install django-filter
   
-  f. pip install django-oauth-toolkit
+  f. pip install django-oauth-toolkit (My system needs rust compiler to install this package)
   
   
  4. Check error syntax & depedencies before running: ./manage.py check
