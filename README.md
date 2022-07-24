@@ -40,4 +40,14 @@ Now you can make curl request: (default localhost port 8000, so use http://127.0
 *curl --location --request GET http://127.0.0.1:8000/api/v1/wallet --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238'*
 
 **Deposit**
-* curl --location --request POST 'http://localhost/api/v1/wallet/deposits' --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238' --form 'amount="100000"' --form 'reference_id="50535246-dcb2-4929-8cc9-004ea06f5241"' *
+
+*curl --location --request POST http://127.0.0.1:8000/api/v1/wallet/deposits --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238' --form 'amount="100000"' --form 'reference_id="50535246-dcb2-4929-8cc9-004ea06f5241"'*
+
+**Withdrawal**
+
+*curl --location --request POST http://127.0.0.1:8000/api/v1/wallet/withdrawals --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238' --form 'amount="60000"' --form 'reference_id="4b01c9bb-3acd-47dc-87db-d9ac483d20b2"'*
+
+**Disable Wallet**
+
+*curl --location --request PATCH http://127.0.0.1:8000/api/v1/wallet --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238' --form 'is_disabled="true"'*
+
