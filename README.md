@@ -3,7 +3,7 @@ Mini Wallet Exercise
 https://documenter.getpostman.com/view/8411283/SVfMSqA3?version=latest
 
 How to install and run this program: (on UNIX based OS, Linux or BSDs)
-1. git clone
+1. git clone https://github.com/wendijohanes/julo-test-api
 2. create virtual environment (python >= 3.6)
 3. Make sure these packages are installed in python env:
 
