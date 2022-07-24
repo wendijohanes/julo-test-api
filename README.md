@@ -6,6 +6,7 @@ How to install and run this program:
 1. git clone
 2. create virtual environment (python >= 3.6)
 3. Make sure these packages are installed in python env:
+
   a. pip install Django
   b. pip install django-rest-framework
   c. pip install django_cleanup
