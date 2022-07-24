@@ -33,4 +33,11 @@ Now you can make curl request: (default localhost port 8000, so use http://127.0
 
 **Enable Wallet**
 
-*curl --location --request POST http://localhost/api/v1/wallet --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238'*
+*curl --location --request POST http://127.0.0.1:8000/api/v1/wallet --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238'*
+
+**View Balance Wallet**
+
+*curl --location --request GET http://127.0.0.1:8000/api/v1/wallet --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238'*
+
+**Deposit**
+* curl --location --request POST 'http://localhost/api/v1/wallet/deposits' --header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238' --form 'amount="100000"' --form 'reference_id="50535246-dcb2-4929-8cc9-004ea06f5241"' *
