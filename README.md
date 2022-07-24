@@ -7,17 +7,17 @@ How to install and run this program: (on UNIX based OS, Linux or BSDs)
 2. create virtual environment (python >= 3.6) & activate virtual environment
 3. Make sure these packages are installed in python env:
 
-  a. **pip install Django**
+   **pip install Django**
   
-  b. **pip install django-rest-framework**
+   **pip install django-rest-framework**
   
-  c. **pip install django_cleanup**
+   **pip install django_cleanup**
   
-  d. **pip install Markdown**
+   **pip install Markdown**
   
-  e. **pip install django-filter**
+   **pip install django-filter**
   
-  f. **pip install django-oauth-toolkit** (My system needs rust compiler to install this package)
+   **pip install django-oauth-toolkit** (My system needs rust compiler to install this package)
   
   
  4. Check error syntax & depedencies before running: **./manage.py check**
